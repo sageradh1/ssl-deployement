@@ -10,6 +10,8 @@ RUN \
  python3 -m pip install -r requirements.txt --no-cache-dir && \
  apk --purge del .build-deps
  
+
+
 EXPOSE 4000
 
 CMD ["python3", "run.py"]
