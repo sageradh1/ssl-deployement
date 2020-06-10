@@ -3,7 +3,7 @@ import os
 
 app= Flask(__name__)
 
-basedir = os.path.abspath(os.path.dirname(__file__))+'/app/static'
+basedir = os.path.abspath(os.path.dirname(__file__))+'/static'
 @app.route("/",methods=['GET','POST'])
 def index():
 
