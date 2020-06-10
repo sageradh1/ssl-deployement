@@ -1,7 +1,7 @@
 # FROM python:3.6.1-alpine
 # FROM surnet/alpine-python-wkhtmltopdf:3.7.2-0.12.5-small
 FROM surnet/alpine-python-wkhtmltopdf:3.7.2-0.12.5-full
-WORKDIR /app
+WORKDIR /src
 ADD . /app
 
 RUN \
